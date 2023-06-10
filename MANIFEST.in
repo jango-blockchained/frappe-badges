@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_badges *.css
+recursive-include frappe_badges *.csv
+recursive-include frappe_badges *.html
+recursive-include frappe_badges *.ico
+recursive-include frappe_badges *.js
+recursive-include frappe_badges *.json
+recursive-include frappe_badges *.md
+recursive-include frappe_badges *.png
+recursive-include frappe_badges *.py
+recursive-include frappe_badges *.svg
+recursive-include frappe_badges *.txt
+recursive-exclude frappe_badges *.pyc

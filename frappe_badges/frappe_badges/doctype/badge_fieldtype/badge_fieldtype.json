@@ -1,0 +1,59 @@
+{
+    "creation": "2023-06-10 00:00:00",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "label",
+        "status",
+        "color",
+        "style",
+        "icon"
+    ],
+    "fields": [
+        {
+            "fieldname": "label",
+            "fieldtype": "Data",
+            "label": "Label",
+            "reqd": 1
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Data",
+            "label": "Status",
+            "reqd": 1
+        },
+        {
+            "fieldname": "color",
+            "fieldtype": "Color",
+            "label": "Color",
+            "reqd": 1
+        },
+        {
+            "fieldname": "style",
+            "fieldtype": "Select",
+            "label": "Style",
+            "options": "flat\nflat-square\nplastic\nfor-the-badge\nsocial"
+        },
+        {
+            "fieldname": "icon",
+            "fieldtype": "Data",
+            "label": "Icon"
+        }
+    ],
+    "istable": 0,
+    "modified": "2023-06-10 00:00:00",
+    "modified_by": "Administrator",
+    "module": "Frappe Badges",
+    "name": "Badge FieldType",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "read": 1,
+            "role": "System Manager",
+            "write": 1
+        }
+    ],
+    "quick_entry": 1
+}
